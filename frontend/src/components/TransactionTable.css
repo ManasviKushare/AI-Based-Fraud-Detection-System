@@ -1,0 +1,71 @@
+.table-card{
+    background:white;
+    border-radius:14px;
+    padding:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    overflow-x:auto;
+}
+
+.transaction-table input{
+    color:#111827;
+}
+
+.transaction-table input::placeholder{
+    color:#6b7280;
+}
+
+.transaction-table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.transaction-table th{
+    background:#0f172a;
+    color:white;
+    padding:15px;
+    text-align:left;
+}
+
+.transaction-table td{
+    color:#1e293b;      /* Dark Blue */
+    padding:16px;
+    border-bottom:1px solid #e5e7eb;
+}
+
+.transaction-table tr:hover{
+    background:#0d0f11;
+}
+
+.badge{
+    padding:6px 14px;
+    border-radius:20px;
+    color:white;
+    font-size:13px;
+    font-weight:600;
+}
+
+.badge-green{
+    background:#22c55e;
+}
+
+.badge-red{
+    background:#ef4444;
+}
+
+.badge-yellow{
+    background:#f59e0b;
+}
+
+.view-btn{
+    border:none;
+    background:#2563eb;
+    color:white;
+    padding:8px 16px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.view-btn:hover{
+    background:#1d4ed8;
+}

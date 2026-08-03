@@ -1,0 +1,235 @@
+.sidebar{
+
+position:fixed;
+left:0;
+top:0;
+
+width:260px;
+height:100vh;
+
+background:#071a2f;
+
+padding:25px;
+
+display:flex;
+flex-direction:column;
+
+border-right:1px solid rgba(255,255,255,.08);
+
+}
+
+.logo-section{
+
+display:flex;
+align-items:center;
+
+gap:15px;
+
+margin-bottom:45px;
+
+}
+
+.logo-icon{
+
+width:58px;
+height:58px;
+
+background:#2563eb;
+
+border-radius:16px;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+color:white;
+
+box-shadow:0 12px 30px rgba(37,99,235,.35);
+
+}
+
+.logo-section h2{
+
+margin:0;
+color:white;
+
+font-size:24px;
+
+}
+
+.logo-section p{
+
+margin-top:3px;
+
+font-size:13px;
+
+color:#94a3b8;
+
+}
+
+.sidebar a{
+
+display:flex;
+
+align-items:center;
+
+gap:14px;
+
+padding:16px 18px;
+
+border-radius:14px;
+
+text-decoration:none;
+
+color:#cbd5e1;
+
+font-size:16px;
+
+margin-bottom:10px;
+
+transition:.3s;
+
+}
+
+.sidebar a:hover{
+
+background:#1d4ed8;
+
+color:white;
+
+transform:translateX(5px);
+
+}
+
+.sidebar a.active{
+
+background:#2563eb;
+
+color:white;
+
+box-shadow:0 8px 20px rgba(37,99,235,.30);
+
+}
+
+.logout{
+
+margin-top:auto;
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+padding:16px;
+
+border-radius:14px;
+
+color:#f87171;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.logout:hover{
+
+background:#7f1d1d;
+
+color:white;
+
+}
+
+/* ---------- Logo ---------- */
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    font-size:30px;
+    font-weight:700;
+
+    color:#38bdf8;
+
+    margin-bottom:45px;
+}
+
+.sidebar nav{
+    display:flex;
+    flex-direction:column;
+}
+
+.sidebar a{
+    display:flex;
+    align-items:center;
+    gap:14px;
+
+    text-decoration:none;
+
+    color:#dbeafe;
+
+    padding:16px 18px;
+
+    border-radius:14px;
+
+    margin-bottom:10px;
+
+    transition:.3s;
+}
+
+.sidebar a:hover{
+    background:#2563eb;
+}
+
+.sidebar a.active{
+    background:#2563eb;
+    color:white;
+}
+
+.logout{
+    margin-top:auto;
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    color:#ff8a8a;
+
+    padding:18px;
+
+    cursor:pointer;
+}
+
+.logout button{
+
+    width:100%;
+
+    padding:14px;
+
+    background:#dc2626;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.logout button:hover{
+
+    background:#ef4444;
+
+    transform:translateY(-2px);
+
+}
